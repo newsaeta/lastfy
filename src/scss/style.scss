@@ -1,5 +1,9 @@
-$background-color: lightblue;
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Abel|Roboto');
+@import "variables";
+@import "responsive-utils";
+@import "html-tags";
 
-body {
-    background: $background-color;
-}
+// components
+@import "components/header";
+@import "components/songs-list";

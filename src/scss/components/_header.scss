@@ -1,0 +1,18 @@
+.web-header {
+    background: fade-out($color-dirty-robin, 0.15);
+    padding: 15px 0;
+    color: $color-lime;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: background 0.2s;
+    &:hover {
+        background: $color-dirty-robin;
+    }
+    .web-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: $font-size-large;
+    }
+}

@@ -1,0 +1,22 @@
+body {
+    background: $color-la;
+    font-family: $main-font-family;
+    font-size: $font-size-base;
+    color: $main-text-color;
+
+    @include if-mobile-landscape {
+        background-color: $color-k;
+    }
+    
+    @include if-mobile-portrait {
+        background-color: $color-peach-rose;
+    }
+
+    @include if-tablet-landscape {
+        background-color: $color-k;
+    }
+    
+    @include if-tablet-portrait {
+        background-colo: $color-lime;
+    }
+}
