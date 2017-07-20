@@ -10,6 +10,12 @@
         height: 240px;
         max-height: 240px;
         overflow: hidden;
+        @include if-mobile-landscape{
+            width: calc(25% - 10px)
+        }
+        @include if-tablet{
+            width: calc(25% - 10px);
+        }
         .cover {
             width: 100%;
         }

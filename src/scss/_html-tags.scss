@@ -13,10 +13,10 @@ body {
     }
 
     @include if-tablet-landscape {
-        background-color: $color-k;
+        background-color: $color-dirty-robin;
     }
     
     @include if-tablet-portrait {
-        background-colo: $color-lime;
+        background-color: $color-peach-rose;
     }
 }
