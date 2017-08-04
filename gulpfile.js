@@ -17,8 +17,8 @@ var cssnano = require("cssnano");
 gulp.task("default", ["html", "sass", "js"], function(){
 
     // iniciamos el servidor de desarrollo
-    //browserSync.init({ server: "dist/" });
-    browserSync.init({ proxy: "http://127.0.0.1:3100/" });
+    browserSync.init({ server: "dist/" });
+    //browserSync.init({ proxy: "http://127.0.0.1:3100/" });
 
     // observa cambios en los archivos SASS, y entonces ejecuta la tarea 'sass'
     gulp.watch(["src/scss/*.scss", "src/scss/**/*.scss"], ["sass"]);
