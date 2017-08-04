@@ -35,13 +35,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newsaeta/html_avanzado.git"
+    "url": "git+https://github.com/newsaeta/lastfy.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/newsaeta/html_avanzado/issues"
+    "url": "https://github.com/newsaeta/lastfy/issues"
   },
-  "homepage": "https://github.com/newsaeta/html_avanzado#readme",
-  "keywords": []
+  "homepage": "https://github.com/newsaeta/lastfy#readme"
 }
